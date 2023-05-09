@@ -1,0 +1,135 @@
+body {
+  font-family: 'poppins', sans-serif;
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  height: 3px;
+  padding: 10px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: black;
+}
+
+#contact_section {
+  padding-bottom: 40px;
+}
+
+.contact_title {
+  padding-bottom: 30px;
+}
+
+.Book-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  display: block;
+  padding: 1px 10px;
+  margin-right: 5px;
+  border: 3px black solid;
+}
+
+.button-add {
+  margin-left: 53.5%;
+}
+
+#book_list {
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.book:nth-child(odd) {
+  background-color: rgb(212, 209, 209);
+}
+
+.underlined {
+  width: 5%;
+  height: 0.5px;
+  border-top: 3px gray groove;
+  margin-left: 47.5%;
+  margin-top: 20px;
+}
+
+.button_container {
+  width: 224px;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.margin-right0 {
+  margin-right: unset;
+}
+
+footer {
+  display: flex;
+  border: 2px solid black;
+  padding: 5px 15px;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+nav ul {
+  display: flex;
+  margin: unset;
+  gap: 10px;
+}
+
+#dateTime {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.main_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}

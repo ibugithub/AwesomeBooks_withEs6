@@ -1,14 +1,9 @@
-# Awesome books
-A Microverse exercise to use animation on a website
-<a name="readme-top"></a>
+# Portfolio<a name="readme-top"></a>
 
 <div align="center">
-
-  <h3><b>Awesome books</b></h3>
-
+  <h1> Awesome Books | README </h1>
+  <br/>
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -22,6 +17,8 @@ A Microverse exercise to use animation on a website
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -29,116 +26,116 @@ A Microverse exercise to use animation on a website
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-# 📖Aweesome books<a name="about-project"></a>
-In this project, I build a basic website that allows users to add/remove books from a list. I achieve that by using JavaScript objects and arrays. I also dynamically modify the DOM and add basic events.. The use of linters to ensure code quality follows the Javascript best practices.
+
+# 📖Awesome Books  <a name="about-project"></a>
+**Awesome Books** is a project for Microverse bootcamp to implement all the learned topics about Esy syntax and ES6 modules. It is a Book listing Web Application.
+
 ## 🛠 Built With <a name="built-with"></a>
-
 ### Tech Stack <a name="tech-stack"></a>
-
-> This project focuses only on `linters` and `.gitignore`. and JS or Server are included in this repo.
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3.org/html/">HTML</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">SCSS</a></li>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.netlify.com/">Netlify</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+- **To Display my projects**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), and [Stylelint](https://stylelint.io/.)
-- **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
-- **A** `.gitignore` file including `node_modules/`.
--**Eslint**npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-          [ -f .eslintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css-js/.eslintrc.json
-      - name: ESLint Report
 
-<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+- [Live Demo Link](https://ibugithub.github.io/AwesomeBooks_withEs6/)
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
->If you are a new developer and would like to have a basic project to start practicing your code or creating your first portfolio app-features using good practice JavaScript ,HTML and CSS : Cloning this project will give you what you need!
-
-> To get a local copy up and running, follow these steps:
 ### Prerequisites
-
 In order to run this project you need:
-
-- Have [npm](https://www.npmjs.com/package/npm) installed in your project:
-  `curl -qL https://www.npmjs.com/install.sh | sh`
+<p> A Text Editor</p>
+<p> A Browser </p>
 
 ### Setup
-
 Clone this repository to your desired folder:
+Example commands:
+  
+  ```
+    cd my-folder 
+    git clone https://github.com/ibugithub/Hello-Microverse
+  ```
 
-`https://github.com/Gardimy/Awesome_books`
 
-or
+### Install
+Install this project with:
+  `npm install `
+ <p>No special installation needed</p>
 
-`https://github.com/Gardimy/Awesome_books` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
-
-### Install:
-
-run the `npm install` command in your console.
 
 ### Usage
+To run the project, execute the following command:
+<p> just open the index.html file in the browser</p>
 
-To run the linters before committing any changes to your code, execute the following commands:
 
-`npx hint .`
-`npx stylelint "**/*.scss"` <--_NOTE: this repo is set up to use with SCSS. If you would like to use CSS, you must replace `"**/*.scss"` with `"**/*.{css,scss}"` in **line 48** of the `.stylelintrc.json` file, and run the linter with:_
+### Run tests
+To run tests, run the following command:
+<p> No test available </p>
+<p>But you can inspect the project's webpages by the browser's developer mode </p>
 
-`npx stylelint "**/*.{css,scss}"` _instead_.
+
+### Deployment
+You can deploy this project using:
+<p>Any Browser</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 👥 Authors <a name="authors"></a>
+ **Ibrahim ibu**
+- GitHub: [@githubhandle](https://github.com/ibugithub)
+- Twitter: [@twitterhandle](https://twitter.com/mdibrahimibuu)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ibuu)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 🔭 Future Features <a name="future-features"></a>
+- [ ] **[Responsive Home Page]**
+- [ ] **[Responsive About Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
 
-> 👤 **Gardimy Charles**
-- GitHub: [@Gardimy](https://github.com/Gardimy)
-- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
-- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
+## 🤝 Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ESLint](https://eslint.org/).
-
-<!-- CONTRIBUTING -->
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
+If you like this project please try to contribute or rate it or put a comment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-> If you like this project please give me a star on GitHub.And Don't hesitate to follow me on github, you will have the opportunity to get all updating available for this project.
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+I would like to thank to my coding partners.
 
-> I would like to thank [microverse](https://www.microverse.org/) for teaching me this Skills
-<!-- LICENSE -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 ## 📝 License <a name="license"></a>
+Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
 
-This project is [MIT license](https://choosealicense.com/licenses/mit/) licensed.
-
+This project is [MIT](./LICENSE.md) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
